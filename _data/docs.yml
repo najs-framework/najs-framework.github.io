@@ -1,13 +1,11 @@
-- title: Documentation
+- title: Getting Started
   docs:
   - home
-  - workflows
-  - code_samples
-  - mdreference
-  - openapi
+  - themes
+  - customization
 
-- title: More information
+- title: Examples
   docs:
-  - mvd_checklist
-  - publishing_options
-
+  - cheatsheet
+  - font-awesome
+  - bootstrap
