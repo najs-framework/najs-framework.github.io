@@ -2,6 +2,6 @@
   docs:
   - home
 
-- title: Basic
+- title: Eloquent ORM
   docs:
-  - routing
+  - eloquent/getting-started
