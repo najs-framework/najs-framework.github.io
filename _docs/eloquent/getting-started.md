@@ -105,9 +105,8 @@ export class User extends (Eloquent as Mongoose<IUser>) {
 
 | Note - description                     | 1st way | 2nd way | 3rd way (Suggested) |
 | :--------------------------------------| :-----: | :-----: | :-----------------: |
-| Instance queries suggestion            | <i class="fa fa-check text-success"></i> | <i class="fa fa-check text-success"></i> | <i class="fa fa-check text-success"></i> |
+| `Instance` queries suggestion            | <i class="fa fa-check text-success"></i> | <i class="fa fa-check text-success"></i> | <i class="fa fa-check text-success"></i> |
 | `Static` queries suggestion            |   | <i class="fa fa-check text-success"></i> |   |
-| `Static` queries result suggestion     |   | <i class="fa fa-check text-success"></i> |   |
 | Query log - request level              | <i class="fa fa-check text-success"></i> |   | <i class="fa fa-check text-success"></i> |
 | Reduce interface attributes repetition |   | <i class="fa fa-check text-success"></i> | <i class="fa fa-check text-success"></i> |
 | No code modified if driver is changed  | <i class="fa fa-check text-success"></i> |   |   |

@@ -5,3 +5,6 @@
 - title: Eloquent ORM
   docs:
   - eloquent/getting-started
+  - eloquent/setting-properties
+  - eloquent/query-builder
+  - eloquent/factory
