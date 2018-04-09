@@ -2,9 +2,18 @@
   docs:
   - home
 
-- title: Eloquent ORM
+- title: Concepts
   docs:
-  - eloquent/getting-started
-  - eloquent/setting-properties
-  - eloquent/query-builder
-  - eloquent/factory
+  - concepts/service-container
+
+- title: The Basics
+  docs:
+  - routing
+  - controller
+
+- title: Najs Eloquent ORM
+  docs:
+  - najs-eloquent/getting-started
+  - najs-eloquent/setting-properties
+  - najs-eloquent/query-builder
+  - najs-eloquent/factory

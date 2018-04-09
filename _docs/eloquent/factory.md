@@ -1,6 +1,6 @@
 ---
 title: Model Factories
-permalink: /docs/eloquent/factory/
+permalink: /docs/najs-eloquent/factory/
 ---
 
 ## What is Model Factories?

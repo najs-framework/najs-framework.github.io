@@ -1,5 +1,5 @@
 ---
 title: Query Builder
-permalink: /docs/eloquent/query-builder/
+permalink: /docs/najs-eloquent/query-builder/
 ---
 

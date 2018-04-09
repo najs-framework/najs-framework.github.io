@@ -1,6 +1,6 @@
 ---
 title: Setting Properties
-permalink: /docs/eloquent/setting-properties/
+permalink: /docs/najs-eloquent/setting-properties/
 ---
 
 ## Mongodb

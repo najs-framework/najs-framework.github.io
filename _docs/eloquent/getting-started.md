@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-permalink: /docs/eloquent/getting-started/
+permalink: /docs/najs-eloquent/getting-started/
 ---
 
 ## Introduction
