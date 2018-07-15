@@ -28,3 +28,27 @@ export class User extends Eloquent {
 ```
 
 ## `softDeletes`
+
+You can simply define soft deletes feature for models by changing static (or protected) variable named `softDeletes`.
+
+```typescript
+export class User extends Eloquent {
+  protected softDeletes = true
+
+  // This way also works :)
+  // static softDeletes = true
+}
+```
+
+By using this feature every time the model get deleted the data ind database not actually deleted, it update `deleted_at` from `null` to date object. You can custom the `deleted_at` field name:
+
+```typescript
+export class User extends Eloquent {
+  protected softDeletes = { deletedAt: 'deleted' }
+
+  // This way also works :)
+  // static softDeletes = { deletedAt: 'deleted' }
+}
+```
+
+With soft deletes model all retrieve operators like `find()` or `get()` automatically return non-deleted entries only, you can use `.withTrashed()` or `.onlyTrashed()` to receive deleted entries
